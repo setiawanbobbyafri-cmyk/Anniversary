@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>3rd Wedding Anniversary</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="ambient ambient-1" aria-hidden="true"></div>
+    <div class="ambient ambient-2" aria-hidden="true"></div>
+
+    <main class="card login-card" id="loginCard" aria-label="Password login">
+      <p class="eyebrow">Private Anniversary Page</p>
+      <h1>Enter Password</h1>
+      <p class="message">This page is protected. Please enter the anniversary password to continue.</p>
+
+      <form id="loginForm" class="login-form">
+        <label for="passwordInput">Password</label>
+        <input id="passwordInput" name="password" type="password" autocomplete="off" required />
+        <button type="submit" class="music-link">Unlock Our Anniversary Page</button>
+        <p id="loginError" class="error" aria-live="polite"></p>
+      </form>
+    </main>
+
+    <main class="card hidden" id="anniversaryCard">
+      <p class="eyebrow">A Love Story in Purple Lilac</p>
+      <h1>Happy 3rd Wedding Anniversary</h1>
+      <p class="date">4 March 2023 → Forever</p>
+
+      <p class="message">
+        My love, from the day we said “I do,” you turned ordinary moments into poetry. Thank you for being my calm,
+        my joy, and my forever person.
+      </p>
+
+      <section class="photo-section" aria-label="Our photos">
+        <h2>Our Moments</h2>
+        <p class="gallery-note">Automatically arranged memory wall.</p>
+        <div class="photo-gallery" id="photoGallery"></div>
+      </section>
+
+      <section class="stats" aria-label="Anniversary counters">
+        <article>
+          <h2 id="daysTogether">0</h2>
+          <p>Days Together</p>
+        </article>
+        <article>
+          <h2 id="nextAnniversary">0</h2>
+          <p>Days Until Next Anniversary</p>
+        </article>
+      </section>
+
+      <section class="love-letter" aria-label="Words for my wife">
+        <h2>Words for My Wife</h2>
+        <p>
+          To my dearest wife,<br />
+          Thank you for being my peace in hard days, my laughter in ordinary moments, and my home in every season of life.
+        </p>
+        <p>
+          I still choose you in every sunrise, and I will keep choosing you in every tomorrow.
+          Happy anniversary, my love. I love you more deeply than words can ever hold.
+        </p>
+      </section>
+
+      <section class="details" aria-label="Wedding details">
+        <p><strong>Wedding Date:</strong> 4 March 2023</p>
+        <p><strong>Theme Color:</strong> Purple Lilac</p>
+        <p><strong>Our Song:</strong> Taylor Swift - The Fate of Ophelia</p>
+      </section>
+
+      <div class="actions">
+        <a
+          class="music-link"
+          href="https://www.youtube.com/results?search_query=Taylor+Swift+The+Fate+of+Ophelia"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          ▶ Play Our Song
+        </a>
+      </div>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
